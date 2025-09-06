@@ -31,10 +31,10 @@
     <div class="container">
       <div class="project-hero-content">
         <div class="project-hero-text">
-          <h1 class="project-title">Stealth Cut</h1>
+          <h1 class="project-title">StealthCut</h1>
           <p class="project-subtitle">Movies Store Web Application</p>
           <p class="project-description">
-            Stealth Cut is a frontend web application that demonstrates a movie store interface with dummy data. The application showcases user interface design for browsing movies, managing a shopping cart, and displaying movie reviews. It features a responsive design and provides a realistic preview of movie information including name, price, description, and images.
+            StealthCut is a frontend web application that demonstrates a movie store interface with dummy data. The application showcases user interface design for browsing movies, managing a shopping cart, and displaying movie reviews. It features a responsive design and provides a realistic preview of movie information including name, price, description, and images.
           </p>
           <div class="project-links">
             <a href="https://luvielmo.pythonanywhere.com/" target="_blank" class="project-link primary">
@@ -60,9 +60,9 @@
         <div class="project-info">
           <h2>Project Overview</h2>
           <p>
-            Stealth Cut is a frontend demonstration project that showcases modern web design and user interface patterns for an e-commerce movie store. Built with static data and client-side interactions, it demonstrates responsive design principles, interactive components, and user experience best practices for a movie shopping platform.
+            StealthCut is a frontend demonstration project that showcases modern web design and user interface patterns for an e-commerce movie store. Built with static data and client-side interactions, it demonstrates responsive design principles, interactive components, and user experience best practices for a movie shopping platform.
           </p>
-          
+
           <h3>Key Features</h3>
           <ul class="feature-list">
             <li><i class="fas fa-check"></i> Interactive movie browsing interface</li>
@@ -84,6 +84,11 @@
             <span class="tech-tag">Font Awesome</span>
             <span class="tech-tag">Responsive Design</span>
           </div>
+
+          <h4>Development Process</h4>
+          <p>
+            The development followed a structured approach covering Django's core concepts including MVT (Model-View-Template) architecture, URL routing, views, templates, models, database integration, authentication, CRUD operations, session management, and cloud deployment. This frontend demonstration represents the user interface layer that would integrate with the Django backend.
+          </p>
         </div>
 
         <div class="project-demo">
@@ -236,6 +241,38 @@
       border-radius: 25px;
       font-weight: 600;
       font-size: 0.9rem;
+    }
+
+    .book-chapters {
+      background: var(--light-bg);
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .chapter-item {
+      padding: 0.8rem 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .chapter-item:last-child {
+      border-bottom: none;
+    }
+
+    .chapter-item strong {
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+
+    .project-info h4 {
+      font-size: 1.3rem;
+      color: var(--text-dark);
+      margin: 2rem 0 1rem 0;
+      font-weight: 600;
     }
 
     .project-demo h2 {
